@@ -35,7 +35,7 @@
 
         static void Setup()
         {
-            // Your one-time setup code here
+            
         }
 
         static void Update()
