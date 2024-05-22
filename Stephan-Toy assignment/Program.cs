@@ -39,7 +39,11 @@
 
         static void Setup()
         {
-            Vector2 mousePosition = GetMousePosition();
+        Vector2 mousePosition = GetMousePosition();
+
+        // Get mouse delta between frames
+        Vector2 mouseDelta = GetMouseDelta();
+
         }
 
         static void Update()
